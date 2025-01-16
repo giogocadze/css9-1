@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    /* align-items: center; */
+    background: #14171F;
+    max-width: 296px;
+    width: 100%;
+    padding: 24px;
+}
+
+.omoskillBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 16px 16px 16px;
+    border-bottom: 1px solid #3D414B;
+    max-width: 248px;
+    width: 100%;
+}
+
+.paraghrap {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.andrioRichardBox {
+    display: flex;
+    justify-content: space-between;
+    max-width: 248px;
+    width: 100%;
+    padding: 12px 0px;
+    align-items: center;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+
+}
+
+.andrioRichard {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.andrio {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.student {
+    color: #929699;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard {
+    color: #929699;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.analytcsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 248px;
+    width: 100%;
+
+}
+
+.line {
+    height: 1px;
+    border: 1px solid #3D414B;
+    background: #24272E;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.settingss {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #14171F;
+
+}
+
+button {
+    border: none;
+}
+
+.setting {
+    color: #7B62FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.button {
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    /* background: none; */
+}
+
+.headerContainer {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.photo {
+    display: none;
+}
+
+
+.linkBox {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    /* visibility: visible; */
+}
+
+.learn {
+    text-decoration: none;
+    color: #2F2F2F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+header {
+    width: 100%;
+}
+
+.informationn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 600px;
+    background: #F7F7F7;
+}
+
+.information {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.teacher {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background: #F7F7F7;
+}
+
+.became {
+    cursor: pointer;
+    background: none;
+    color: #2F2F2F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.mainheaderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* width: 100%; */
+}
+
+.levelupBox {
+    background: url(../images/imagetwo.svg);
+    padding: 66px 0px 66px 40px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 1080px;
+    border: lightgray 2px solid;
+
+}
+
+.tune {
+    color: #2F2F2F;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+
+    max-width: 416px;
+    width: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.account {
+    color: #2F2F2F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+}
+
+.information__one {
+    cursor: pointer;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #3D414B;
+    background: #14171F;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* .container {
+    display: none;
+} */
+/* .container {
+
+} */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        display: none;
+    }
+
+    .linkBox {
+        gap: 12px;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 600px;
+        background: #F7F7F7;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .mainheaderContainer {
+        gap: 24px;
+    }
+
+    .main {
+        gap: 24px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .information {
+        gap: 8px;
+    }
+
+    .linkBox {
+        gap: 8px;
+    }
+
+    .mainheaderContainer {
+        gap: 24px;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 600px;
+        background: #F7F7F7;
+    }
+
+    .main {
+        gap: 24px;
+    }
+
+    /* .levelupBox {
+        background-size: contain;
+        background-repeat: no-repeat;
+    } */
+
+    .tune {
+        font-size: 24px;
+        max-width: 248px;
+        width: 100%;
+        color: #2F2F2F;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+
+    }
+
+    .headerContainer {
+        gap: 21px;
+    }
+
+}
