@@ -10,9 +10,9 @@
     gap: 48px;
     /* align-items: center; */
     background: #14171F;
-    max-width: 296px;
-    width: 100%;
-    padding: 24px;
+    /* max-width: 296px;
+    width: 100%; */
+    /* padding: 24px; */
 }
 
 .omoskillBox {
@@ -43,6 +43,7 @@
     align-items: center;
     border-top: 1px solid #7D70BD;
     border-bottom: 1px solid #7D70BD;
+    cursor: pointer;
 
 }
 
@@ -52,7 +53,7 @@
     gap: 8px;
 }
 
-.andrio {
+.userContainer {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -90,6 +91,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    cursor: pointer;
 }
 
 .analytcsBox {
@@ -123,6 +125,7 @@
 
 button {
     border: none;
+    cursor: pointer;
 }
 
 .setting {
@@ -278,7 +281,7 @@ header {
     background: none;
 }
 
-.information__one {
+.account:hover {
     cursor: pointer;
     display: flex;
     padding: 8px 16px;
@@ -294,12 +297,463 @@ header {
     line-height: 22px;
 }
 
-/* .container {
-    display: none;
-} */
-/* .container {
+.informationContainer {
+    display: flex;
+    /* align-items: center; */
+    gap: 32px;
+    flex-wrap: wrap;
 
-} */
+}
+
+.personal__information {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 702px;
+    width: 100%;
+}
+
+.upload__information {
+    display: flex;
+    max-width: 702px;
+    width: 100%;
+    padding: 24px 16px;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.info__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information_p {
+    color: #14171F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.personal__info {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.nameandemailbox {
+    display: flex;
+    gap: 16px;
+}
+
+.fullname {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input__type {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    max-width: 327px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+}
+
+.input__type::placeholder {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.input__type:hover {
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+
+.contactand__emailbox {
+    display: flex;
+    gap: 16px;
+
+}
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.paraghrap__ {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.numberContentt {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    max-width: 80px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.numberContentt:hover {
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #14171F;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.numberContentt::placeholder {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.numberbutton {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    cursor: pointer;
+
+}
+
+.numberCoontact {
+    display: flex;
+    gap: 8px;
+}
+
+.date {
+    display: flex;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    background-image: url(../images/imageone.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+}
+
+.Save {
+    display: flex;
+    max-width: 104px;
+    border-radius: 8px;
+    background: #7F56D9;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 100%;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.additonalInfoBox {
+    display: flex;
+    max-width: 702px;
+    width: 100%;
+    align-items: center;
+    gap: 24px;
+}
+
+.developmentBox {
+    display: flex;
+    max-width: 432px;
+    width: 100%;
+    padding: 24px 16px;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.development {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photoDev {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    /* align-self: stretch; */
+}
+
+.pen {
+    border-radius: 600px;
+    border: 1px solid #C7C7C7;
+    width: 32px;
+    height: 32px;
+}
+
+.navContainer__ {
+    background: #14171F;
+    flex-direction: column;
+    display: flex;
+    background: #14171F;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+nav {
+    display: flex;
+
+}
+
+.departamnetP {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.info_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.developmentContainerWrapp {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    border-radius: 12px;
+    background: #F9FBFC;
+    gap: 10px;
+
+}
+
+.resumeBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    max-width: 247px;
+    width: 100%;
+
+}
+
+.infoBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resumeBox__ {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.resume_ {
+    display: flex;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+}
+
+.additiona_links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.jobs__ {
+    display: flex;
+    padding: 12px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    cursor: pointer;
+
+}
+
+option {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #D2F0FF;
+}
+
+.job {
+    cursor: pointer;
+}
+
+.placeholder {
+    max-width: 58px;
+    width: 100%;
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+}
+
+.andriorichardBox {
+    display: flex;
+    /* max-width: 346px;
+    width: 100%; */
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #14171F;
+}
+
+.andrio {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    width: 100%;
+    background: #FFF;
+}
+
+.andrioinfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.photo__div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.photoDiv__ {
+    background-image: url(../images/rectangleone.svg);
+    background-repeat: no-repeat;
+    height: 124px;
+    padding: 46px;
+    width: 124px;
+
+}
+
+.andrioRichardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.richardP {
+    color: #2F2F2F;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+
+.buttonContainer_ {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.locationBox {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 12px;
+    background: #FFF;
+    width: 100%;
+}
+
+.location__ {
+    max-width: 282px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.penone_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 600px;
+    border: 1px solid #C7C7C7;
+    width: 32px;
+    height: 32px;
+}
+
+.select {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     nav {
@@ -332,6 +786,35 @@ header {
 
     .main {
         gap: 24px;
+    }
+
+    .andriorichardBox {
+        max-width: 1023px;
+
+    }
+
+    .informationContainer {
+        flex-direction: column-reverse;
+    }
+
+    .location__ {
+        width: 100%;
+        max-width: 1023px;
+    }
+
+    .upload__information {
+        max-width: 1023px;
+        width: 100%;
+    }
+
+    .additonalInfoBox {
+        max-width: 1023px;
+        width: 100%;
+    }
+
+    .personal__information {
+        max-width: 1023px;
+        width: 100%;
     }
 }
 
@@ -374,10 +857,6 @@ header {
         gap: 24px;
     }
 
-    /* .levelupBox {
-        background-size: contain;
-        background-repeat: no-repeat;
-    } */
 
     .tune {
         font-size: 24px;
@@ -393,6 +872,21 @@ header {
 
     .headerContainer {
         gap: 21px;
+    }
+
+    .informationContainer {
+        flex-direction: column-reverse;
+    }
+
+    .andriorichardBox {
+        width: 100%;
+    }
+
+    .contactand__emailbox {
+        flex-wrap: wrap;
+    }
+    .nameandemailbox {
+        flex-wrap: wrap;
     }
 
 }
