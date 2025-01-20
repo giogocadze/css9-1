@@ -315,8 +315,8 @@ header {
 
 .upload__information {
     display: flex;
-    max-width: 702px;
-    width: 100%;
+    /* max-width: 702px;
+    width: 100%; */
     padding: 24px 16px;
     flex-direction: column;
     gap: 16px;
@@ -455,7 +455,7 @@ form {
     border: 1px solid #C7C7C7;
     background: #F9FBFC;
     cursor: pointer;
-
+    width: 100%
 }
 
 .numberCoontact {
@@ -473,6 +473,8 @@ form {
     background-repeat: no-repeat;
     background-position: right;
     cursor: pointer;
+    max-width: 362px;
+    width: 100%;
 }
 
 .Save {
@@ -499,15 +501,15 @@ form {
 
 .additonalInfoBox {
     display: flex;
-    max-width: 702px;
-    width: 100%;
+    /* max-width: 702px;
+    width: 100%; */
     align-items: center;
     gap: 24px;
 }
 
 .developmentBox {
     display: flex;
-    max-width: 432px;
+    /* max-width: 432px; */
     width: 100%;
     padding: 24px 16px;
     flex-direction: column;
@@ -519,6 +521,7 @@ form {
 .development {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -568,6 +571,7 @@ nav {
     border-radius: 12px;
     background: #F9FBFC;
     gap: 10px;
+    flex-wrap: wrap;
 
 }
 
@@ -578,8 +582,7 @@ nav {
     padding: 30px 16px;
     border-radius: 16px;
     border: 1px solid #C7C7C7;
-    max-width: 247px;
-    width: 100%;
+    
 
 }
 
@@ -601,6 +604,8 @@ nav {
     border-radius: 8px;
     border: 1px solid #C7C7C7;
     background: #F9FBFC;
+    width: 100%;
+    max-width: 196px;
 }
 
 .additiona_links {
@@ -816,6 +821,11 @@ option {
         max-width: 1023px;
         width: 100%;
     }
+
+    .date {
+        max-width: 327px;
+        width: 100%;
+    }
 }
 
 /* mobile */
@@ -885,8 +895,21 @@ option {
     .contactand__emailbox {
         flex-wrap: wrap;
     }
+
     .nameandemailbox {
         flex-wrap: wrap;
     }
 
+    .additonalInfoBox {
+        flex-direction: column;
+    }
+
+    .numberbutton {
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .resumeBox {
+        width: 100%;
+    }
 }
